@@ -251,7 +251,7 @@ if selected=='inf':
     with st.container():
         st.header('🎯 Objective')
         st.markdown("""
-                    - Our project aims to create a smale Crop Recommendation System that uses soil nutrient data to suggest the best crops for a specifc farming area . 
+                    - Our project aims to create a small Crop Recommendation System that uses soil nutrient data to suggest the best crops for a specific farming area . 
                     - By using advanced machine learning . we want to help farmers choose the right crops. boosting productivity and sustainability .
                     - Our goal is to empower farmers with accurate recommendations for better harvests and efficient resource use. 
                     """)
@@ -264,7 +264,6 @@ if selected=='inf':
                     - 🌿 Dataset: We've gathered comprehensive soil nutrient data, setting the foundation for our analysis.
                     - 🧐 Exploratory Data Analysis (EDA): Insights gained from EDA guided our understanding of the data's patterns and outliers.
                     - 🧹 Data Preprocessing: We meticulously cleaned and organized the data to ensure accuracy and reliability.
-                    - ⚖️ Normalization: All data was standardized to enable accurate comparisons and analysis.
                     - 💡 Modeling: Advanced machine learning techniques were applied to build our intelligent recommendation system.
                     - 🌟 Results: Our efforts culminated in accurate crop recommendations that can empower farmers to enhance productivity and sustainability.
 
@@ -272,7 +271,7 @@ if selected=='inf':
         st.subheader('Conclusion...')
         st.markdown("""
                     - This machine learning model has been developed and traing historical data.
-                    - As we can see RandomForestClassifier performing best (with accuracy 0.97)
+                    - As we can see RandomForestClassifier performing best (with accuracy 0.99)
                     - Model	                        Score
                     - 1	RandomForestClassifier	     99.31
                     - 2	Support Vector Classifer	 97.66
