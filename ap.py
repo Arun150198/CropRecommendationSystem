@@ -16,7 +16,6 @@ background-size: cover;
 
 st.set_page_config(page_title='CROP_RECOMMENDATION_SYSTEM',layout='wide',page_icon='🌱')
 
-crop1=pd.read_csv('Crop.csv')
 
 attribution="""
 
