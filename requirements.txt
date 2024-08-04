@@ -1,0 +1,9 @@
+pandas
+matplotlib
+seaborn
+plotly
+streamlit-lottie
+streamlit
+streamlit_option_menu
+json
+pickle
