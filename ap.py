@@ -5,7 +5,6 @@ import pickle as pk
 import json
 from streamlit_lottie import st_lottie
 
-model=pk.load(open('model.pkl','rb'))
 pg_bg_img="""
 <style>
 [data-testid="stAppViewContainer"] {
