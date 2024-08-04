@@ -55,7 +55,7 @@ if selected=='predict':
     }
     div.stButton > button:hover {
         background-color: #0C0C0C ;
-        color:##ff99ff;
+        color:#ff99ff;
         }
     </style>""", unsafe_allow_html=True)
     model=pk.load(open('model.pkl','rb'))
