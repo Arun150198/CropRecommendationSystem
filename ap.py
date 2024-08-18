@@ -34,7 +34,7 @@ st.markdown(pg_bg_img,unsafe_allow_html=True)
 #horizontal menu :
 selected=option_menu(
         menu_title='🌾CROP RECOMMENDATION SYSTEM¶🌾',
-        options=['inf','Dashboard','predict'],
+        options=['Predict','Dashboard','Summary'],
         icons=['info-circle-fill','person-circle'],
         menu_icon='🌾',
         orientation='horizontal',
@@ -47,7 +47,7 @@ selected=option_menu(
             }                 
     )
 
-if selected=='predict':
+if selected=='Predict':
     m = st.markdown("""
     <style>
     div.stButton > button:first-child {
@@ -249,7 +249,7 @@ if selected=='predict':
 
 
 
-if selected=='inf':
+if selected=='Summary':
     with st.container():
         st.header('🎯 Objective')
         st.markdown("""
